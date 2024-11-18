@@ -1,20 +1,28 @@
+"use client"; // Add this at the top of the file
 
-
-
-export async function generateStaticParams() {
-    // If you don't need any parameters, return an empty array
-    return [];
-  }
-  
+import ProgressLoading from "@/components/common/Loading/ProgressLoading/ProgressLoading";
+import CategoryContainer from "@/components/layouts/Category/CategoryContainer";
+import { getProductByCatId } from "@/redux/slices/categorySlice";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
 export default function CategoryPage({ params }) {
-  
+    const dispatch = useDispatch();
+    const categoriesDispatch = useSelector((state) => state.categories);
+    const status = useSelector((state) => state.categories.status);
+    const categoryId = params.slug ? params.slug.split("-").pop() : null;
+
+    useEffect(() => {
+        dispatch(getProductByCatId(categoryId));
+    }, [categoryId]); // Include categoryId in the dependency array
+
+    if (status === "loading") {
+        return <ProgressLoading />;
+    }
+
     return (
         <>
-            <CategoryPageComponent data={params} />
+            <CategoryContainer data={categoriesDispatch?.productByCatId} />
         </>
     );
 }
-
-
-
