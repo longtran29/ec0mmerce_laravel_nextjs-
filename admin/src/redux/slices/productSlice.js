@@ -39,6 +39,8 @@ export const createProduct = createAsyncThunk(
     "products/createProduct",
     async ({ data }, { rejectWithValue }) => {
         try {
+            console.log("In creade product api");
+            
             const response = await ProductsService.createProduct(data);
             return response;
         } catch (err) {

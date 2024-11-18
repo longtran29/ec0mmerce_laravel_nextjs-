@@ -57,7 +57,13 @@ export default function SelectEdit({
     const [select, setSelect] = React.useState(value == null ? "" : value);
 
     const handleChange = (event) => {
+        console.log("Update change event " + event.target.value);
+        
         setSelect(event.target.value);
+
+        if (onChange) {
+            onChange(event);
+        }
     };
     return (
         <FormSelectEdit variant="filled" fullWidth sx={{ m: 1, minWidth: 120 }}>

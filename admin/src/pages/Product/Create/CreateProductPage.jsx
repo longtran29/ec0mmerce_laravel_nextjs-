@@ -128,6 +128,8 @@ export default function CreateProductPage() {
         }
     }, [statusCreate])
     // upload anh
+    console.log("Parent selected " + selectedCategory);
+    
     const handleUploadFireBase = async (name, imgList, data) => {
         const uploadImage = async (img) => {
             return new Promise((resolve, reject) => {
@@ -162,6 +164,8 @@ export default function CreateProductPage() {
 
         // Function to upload multiple images
         const uploadMultipleImages = async () => {
+            console.log("In upload images");
+            
             const uploadedImageURLs = [];
 
             for (const img of imgList) {
@@ -258,6 +262,8 @@ export default function CreateProductPage() {
 
     useEffect(() => {
         const child = categories.filter(item => item.parent_id == selectedCategory);
+        console.log("list child " + JSON.stringify(child));
+        
         setChildCategories(child);
     }, [selectedCategory]);
     const handleValidateDetail = (value) => {
@@ -472,7 +478,7 @@ export default function CreateProductPage() {
                                     helperText={
                                         formik.touched.price && formik.errors.price
                                     }
-                                />
+                                />  
                             </DivMargin>
                             <DivMargin>
                                 <InputEdit
@@ -501,7 +507,11 @@ export default function CreateProductPage() {
                                     data={parentCategories}
                                     value={''}
                                     onChange={(e) => {
-                                        setSelectedCategory(e.target.value),
+                                        console.log("In set value parent");
+                                        console.log(e.target.value);
+                                        
+                                        
+                                        setSelectedCategory(e.target.value);
                                             setCategory_id(e.target.value)
                                     }}
                                 />

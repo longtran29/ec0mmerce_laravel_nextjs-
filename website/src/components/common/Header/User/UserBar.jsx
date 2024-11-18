@@ -208,7 +208,7 @@ export default function UserBar() {
                     style={{ textDecoration: "underline" }}
                     href={"to:0966494923"}
                 >
-                    0843.459.123
+                    0966494923
                 </Link>
             </UserBarAddress>
         </UserBarContainer>
