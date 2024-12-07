@@ -38,7 +38,7 @@ export default function ProductDetail({ params }) {
         <>
             <Breadcrumb
                 link="/"
-                text1={"Sản phẩm"}
+                text1={"product"}
                 text2={products?.selectedProduct?.name}
                 productId={productId}
             />

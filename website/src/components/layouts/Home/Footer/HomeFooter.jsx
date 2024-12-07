@@ -24,63 +24,63 @@ export default function HomeFooter() {
             }}
         >
             <Grid xs={3} item>
-                <h4>Hỗ trợ khách hàng</h4>
+                <h4>Support customer</h4>
                 <p style={{ marginTop: "12px" }}>
                     <Link href={""}>Hotline: 19001009</Link>
                 </p>
                 <p>
                     {" "}
-                    <Link href={""}>Các câu hỏi thường gặp</Link>
+                    <Link href={""}>Question</Link>
                 </p>
                 <p>
                     {" "}
-                    <Link href={""}>Hướng dẫn đặt hàng</Link>
+                    <Link href={""}>Buy product</Link>
                 </p>
                 <p>
                     {" "}
-                    <Link href={""}>Phương thức vận chuyển</Link>
+                    <Link href={""}>Shipping method</Link>
                 </p>
                 <p>
                     {" "}
-                    <Link href={""}>Phương thức thanh toán</Link>
+                    <Link href={""}>Shipping method </Link>
                 </p>
             </Grid>
             <Grid xs={3} item>
-                <h4>Về 3000</h4>
+                <h4>About</h4>
                 <p style={{ marginTop: "12px" }}>
                     {" "}
-                    <Link href={""}>Giới thiệu 3000</Link>
+                    <Link href={""}>About us</Link>
                 </p>
                 <p>
                     {" "}
-                    <Link href={""}>3000 Blog</Link>
+                    <Link href={""}>Bai viet</Link>
                 </p>
                 <p>
                     {" "}
-                    <Link href={""}>Tuyển dụng</Link>
+                    <Link href={""}>Career</Link>
                 </p>
                 <p>
                     {" "}
-                    <Link href={""}>Chính sách bảo mật</Link>
+                    <Link href={""}>Agreemennt</Link>
                 </p>
                 <p>
                     {" "}
-                    <Link href={""}>Điều khoản sử dụng</Link>
+                    <Link href={""}>Requirement</Link>
                 </p>
             </Grid>
             <Grid xs={3} item>
-                <h4>Hợp tác và liên kết</h4>
+                <h4>Support</h4>
                 <p style={{ marginTop: "12px" }}>
                     {" "}
-                    <Link href={""}>Quy chế hoạt động sàn GDTMDT</Link>
+                    <Link href={""}>Requirement</Link>
                 </p>
                 <p>
                     {" "}
-                    <Link href={""}>Bán hàng cùng 3000</Link>
+                    <Link href={""}>Seller</Link>
                 </p>
             </Grid>
             <Grid xs={3} item>
-                <h4>Kết nối với chúng tôi</h4>
+                <h4>Connect us</h4>
             </Grid>
         </Grid>
     );

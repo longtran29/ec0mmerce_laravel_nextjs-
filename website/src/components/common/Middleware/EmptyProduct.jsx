@@ -11,7 +11,7 @@ export default function EmptyProduct() {
             }}
             className="flex-c"
         >
-            Không có sản phẩm nào
+            No products exist nào
         </div>
     );
 }

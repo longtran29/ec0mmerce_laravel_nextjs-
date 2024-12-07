@@ -206,7 +206,7 @@ export default function SearchBar() {
         "Máy tính",
         "Bán chạy",
         "Hot",
-        "Sản phẩm mới",
+        "product mới",
     ];
 
     return (
@@ -226,7 +226,7 @@ export default function SearchBar() {
                             onChange={handleChange}
                             onFocus={handleFocus}
                             value={searchValue}
-                            placeholder="Tìm kiếm sản phẩm ..."
+                            placeholder="Tìm kiếm product ..."
                         />
 
                         <SearchBtn
@@ -238,7 +238,7 @@ export default function SearchBar() {
 
                         {showSuggestions && (
                             <SearchSuggestion ref={suggestionRef}>
-                                <h4>Tìm kiếm sản phẩm</h4>
+                                <h4>Tìm kiếm product</h4>
                                 <ul className="SearchSuggestion">
                                     {(searchValue.trim() === ""
                                         ? defaultSuggestions

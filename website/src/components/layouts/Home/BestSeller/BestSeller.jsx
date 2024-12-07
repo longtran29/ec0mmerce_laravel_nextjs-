@@ -26,7 +26,7 @@ export default function BestSeller() {
 
     return (
         <div className="appContainer__bestSeller">
-            <h4>Sản phẩm bán chạy</h4>
+            <h4>product bán chạy</h4>
             <ProductTab tabs={bestSeller} />
         </div>
     );

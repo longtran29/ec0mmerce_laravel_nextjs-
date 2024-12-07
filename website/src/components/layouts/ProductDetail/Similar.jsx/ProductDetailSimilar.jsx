@@ -33,7 +33,7 @@ const StyledProductDetailSimilar = styled("div")(() => ({
 export default function ProductDetailSimilar({ data }) {
     return (
         <StyledProductDetailSimilar>
-            <h4>Sản phẩm tương tự</h4>
+            <h4>product tương tự</h4>
             <Swiper
                 slidesPerView={3}
                 navigation={false}

@@ -73,7 +73,7 @@ const StyledCartContainer = styled("div")(() => ({
 
 export default function CartContainer({ data }) {
     if (!data || data?.length === 0) {
-        return <EmptyData text={"Không có sản phẩm nào trong giỏ hàng"} />;
+        return <EmptyData text={"No products exist nào trong giỏ hàng"} />;
     }
 
     const [checkedIds, setCheckedIds] = useState([]);
@@ -177,12 +177,12 @@ export default function CartContainer({ data }) {
 
     const handleDelete = (id) => {
         const confirmDelete = confirm(
-            "Bạn có chắc muốn xóa sản phẩm này khỏi giỏ hàng không?"
+            "Bạn có chắc muốn xóa product này khỏi giỏ hàng không?"
         );
         if (!confirmDelete) return;
 
         dispatch(deleteCartById(id)).then(() => {
-            toast.success("Xóa sản phẩm thành công", {
+            toast.success("Xóa product thành công", {
                 autoClose: 2000,
             });
 
@@ -221,7 +221,7 @@ export default function CartContainer({ data }) {
                     />
                 </Grid>
                 <Grid item xs={6.1}>
-                    Tất cả ({data?.length} sản phẩm)
+                    Tất cả ({data?.length} product)
                 </Grid>
                 <Grid item xs={1.8}>
                     Đơn giá

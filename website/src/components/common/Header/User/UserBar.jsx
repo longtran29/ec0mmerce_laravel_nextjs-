@@ -96,7 +96,7 @@ export default function UserBar() {
                     <Link href={"/"}>
                         <PrimaryBtn
                             icon={<HomeRoundedIcon />}
-                            text="Trang chủ"
+                            text="Homepage"
                             isActive={activeButton === "home"}
                             onClick={handleHomeClick}
                         />
@@ -104,7 +104,7 @@ export default function UserBar() {
                     <Link href={"/"}>
                         <PrimaryBtn
                             icon={<CameraIcon />}
-                            text="Tin tức"
+                            text="News"
                             isActive={false}
                         />
                     </Link>
@@ -119,7 +119,7 @@ export default function UserBar() {
                     >
                         <PrimaryBtn
                             icon={<SentimentSatisfiedAltIcon />}
-                            text="Tài khoản"
+                            text="Account"
                             isActive={activeButton === "account"}
                         />
                         {isLoggedIn && (
@@ -164,7 +164,7 @@ export default function UserBar() {
                             >
                                 <Link href={"/profile"}>
                                     <p onClick={handleAccountClick}>
-                                        Thông tin tài khoản
+                                        Thông tin Account
                                     </p>
                                 </Link>
                                 <Link
@@ -201,7 +201,7 @@ export default function UserBar() {
                         alignItems: "center",
                     }}
                 >
-                    <LocalPhoneIcon sx={{ fontSize: "22px" }} /> CSKH:
+                    <LocalPhoneIcon sx={{ fontSize: "22px" }} /> Contact:
                 </span>
                 &nbsp;
                 <Link

@@ -10,7 +10,7 @@ export default function NotAuth() {
                 marginTop: "30px",
             }}
         >
-            Bạn chưa đăng nhập, vui lòng bấm vào "Tài khoản" để đăng nhập và
+            Bạn chưa đăng nhập, vui lòng bấm vào "Account" để đăng nhập và
             tiếp tục sử dụng
         </div>
     );

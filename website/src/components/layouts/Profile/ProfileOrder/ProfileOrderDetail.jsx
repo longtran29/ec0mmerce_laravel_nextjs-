@@ -310,7 +310,7 @@ export default function ProfileOrderDetail({ data }) {
                             onChange={(e) => setComment(e.target.value)}
                             type="text"
                             rows={10}
-                            placeholder="Hãy chia sẻ cảm nhận, đánh giá của bạn về sản phẩm này nhé"
+                            placeholder="Hãy chia sẻ cảm nhận, đánh giá của bạn về product này nhé"
                         />
                     </div>
                     <button onClick={handleSubmitReview}>Gửi đi</button>
@@ -375,7 +375,7 @@ export default function ProfileOrderDetail({ data }) {
                 </Grid>
             </Grid>
             <div className="list">
-                <p>Danh sách sản phẩm</p>
+                <p>Danh sách product</p>
                 {data &&
                     data?.order_details?.map((detail) => (
                         <div

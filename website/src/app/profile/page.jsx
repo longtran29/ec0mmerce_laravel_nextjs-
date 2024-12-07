@@ -37,7 +37,7 @@ export default function ProfilePage() {
     return (
         <ThemeProvider theme={theme}>
             <div>
-                Thông tin tài khoản
+                Thông tin Account
                 <ProfileInfo user={currentUser} />
             </div>
         </ThemeProvider>

@@ -72,7 +72,7 @@ const LoginModal = ({ isOpen, onClose }) => {
 
     useEffect(() => {
         if (error === "Email or phone does not exist.") {
-            formik.setErrors({ login: "Tên tài khoản không chính xác" });
+            formik.setErrors({ login: "Tên Account không chính xác" });
         } else if (error === "Password is incorrect.") {
             formik.setErrors({ password: "Mật khẩu không chính xác" });
         }
@@ -108,7 +108,7 @@ const LoginModal = ({ isOpen, onClose }) => {
                 <p style={{ marginTop: "12px" }}>
                     {currentForm === "forgotPassword"
                         ? "Lấy lại mật khẩu"
-                        : "Đăng nhập hoặc tạo tài khoản"}
+                        : "Đăng nhập hoặc tạo Account"}
                 </p>
                 <div style={{ display: "flex" }}>
                     <div style={{ width: "70%", padding: "24px 80px 0 0" }}>
@@ -164,7 +164,7 @@ const LoginModal = ({ isOpen, onClose }) => {
                                             setCurrentForm("register")
                                         }
                                     >
-                                        Tạo tài khoản
+                                        Tạo Account
                                     </Link>
 
                                     <Link

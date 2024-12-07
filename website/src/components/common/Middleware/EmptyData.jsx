@@ -21,7 +21,7 @@ export default function EmptyData({ text }) {
                     fontSize: "15px",
                 }}
             >
-                Quay về trang chủ
+                Quay về Homepage
             </Link>
         </div>
     );

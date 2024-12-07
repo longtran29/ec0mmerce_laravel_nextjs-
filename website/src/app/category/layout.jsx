@@ -12,8 +12,8 @@ export default function CategoryLayout({ children }) {
                 <Grid item xs={12}>
                     <Breadcrumb
                         link="/"
-                        text1={"Trang chủ"}
-                        text2={"Danh mục"}
+                        text1={"Homepage"}
+                        text2={"Category"}
                     />
                 </Grid>
                 <CategoryProvider>

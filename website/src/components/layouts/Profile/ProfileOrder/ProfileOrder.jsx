@@ -311,7 +311,7 @@ export default function ProfileOrder({ data }) {
                 <SearchIcon className="icon" />
                 <input
                     type="text"
-                    placeholder="Tìm kiếm theo tên sản phẩm..."
+                    placeholder="Tìm kiếm theo tên product..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                 />

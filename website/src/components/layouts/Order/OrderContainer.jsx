@@ -49,7 +49,7 @@ const StyledOrderContainer = styled("div")(() => ({
 
 export default function OrderContainer({ data }) {
     if (!data || data.length === 0) {
-        return <EmptyData text={"Không có sản phẩm nào được chọn"} />;
+        return <EmptyData text={"No products exist nào được chọn"} />;
     }
 
     function truncateString(str, num) {

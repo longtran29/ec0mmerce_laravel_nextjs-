@@ -96,7 +96,7 @@ export default function CategorySidebar() {
 
     return (
         <StyledCategorySidebar>
-            <h5>Danh mục sản phẩm</h5>
+            <h5>Category product</h5>
             <ul className="child-cat ul-list">
                 <li>
                     <Link href={""}>Đồ dùng nhà bếp</Link>

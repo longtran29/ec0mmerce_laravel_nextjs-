@@ -42,7 +42,7 @@ export default function ProductDetailMain({ data }) {
 
     return (
         <StyledProductDetailMain isMore={isMore}>
-            <h4>Chi tiết sản phẩm</h4>
+            <h4>Chi tiết product</h4>
             <div
                 className="detail"
                 dangerouslySetInnerHTML={{ __html: data ? data : "" }}

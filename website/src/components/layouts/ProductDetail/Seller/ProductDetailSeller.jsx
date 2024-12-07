@@ -63,7 +63,7 @@ export default function ProductDetailSeller({ data }) {
                                         marginLeft: "4px",
                                     }}
                                 >
-                                    5.000 Sản phẩm
+                                    5.000 product
                                 </span>
                             </div>
                         </div>

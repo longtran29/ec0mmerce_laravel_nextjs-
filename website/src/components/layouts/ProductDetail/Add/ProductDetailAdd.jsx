@@ -156,7 +156,7 @@ export default function ProductDetailAdd({ data }) {
                         setAddToCartSuccess(true);
                     } else {
                         toast.error(
-                            "Sản phẩm đã hết hàng, vui lòng thử lại sau hoặc liên hệ CSKH",
+                            "product đã hết hàng, vui lòng thử lại sau hoặc liên hệ Contact",
                             {
                                 autoClose: 3000,
                             }
