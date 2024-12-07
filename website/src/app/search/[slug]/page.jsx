@@ -28,7 +28,7 @@ export default function page() {
             <Breadcrumb
                 link={"/"}
                 text1={"Homepage"}
-                text2={`Tìm kiếm với từ khóa: ${decodeURIComponent(
+                text2={`Find với từ khóa: ${decodeURIComponent(
                     modifiedPathname
                 )}`}
             />
