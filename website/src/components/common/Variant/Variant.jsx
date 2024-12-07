@@ -16,7 +16,7 @@ const StyledVariant = styled("span")(({ isActive }) => ({
     marginTop: "20px",
     "&:hover": {
         outline: "2px solid #0a68ff",
-        borderColor: "transparent", // Sử dụng box-shadow để tạo viền
+        borderColor: "transparent", // Sử dụng box-shadow để Create viền
     },
     "& img": {
         position: "absolute",

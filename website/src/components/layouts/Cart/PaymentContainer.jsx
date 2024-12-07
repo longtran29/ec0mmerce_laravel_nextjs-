@@ -55,7 +55,7 @@ export default function PaymentContainer() {
     return (
         <StyledPaymentContainer>
             <div className="temp jc-sb">
-                <p>Tạm tính</p>
+                <p>Estimate</p>
                 <p>{totalPrice.toLocaleString()}đ</p>
             </div>
             <div className="total jc-sb">

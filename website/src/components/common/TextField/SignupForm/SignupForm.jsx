@@ -131,7 +131,7 @@ export default function SignupForm({ onRegister }) {
                 }
             />
 
-            <LoginButton text={"Tạo Account"} />
+            <LoginButton text={"Create Account"} />
         </form>
     );
 }

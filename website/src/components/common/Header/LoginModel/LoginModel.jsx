@@ -108,7 +108,7 @@ const LoginModal = ({ isOpen, onClose }) => {
                 <p style={{ marginTop: "12px" }}>
                     {currentForm === "forgotPassword"
                         ? "Lấy lại mật khẩu"
-                        : "Đăng nhập hoặc tạo Account"}
+                        : "Đăng nhập hoặc Create Account"}
                 </p>
                 <div style={{ display: "flex" }}>
                     <div style={{ width: "70%", padding: "24px 80px 0 0" }}>
@@ -164,7 +164,7 @@ const LoginModal = ({ isOpen, onClose }) => {
                                             setCurrentForm("register")
                                         }
                                     >
-                                        Tạo Account
+                                        Create Account
                                     </Link>
 
                                     <Link

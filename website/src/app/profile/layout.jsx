@@ -17,7 +17,7 @@ export default function ProfileLayout({ children }) {
                     <Breadcrumb
                         link={"/"}
                         text1={"Homepage"}
-                        text2={"Trang cá nhân"}
+                        text2={"Profile"}
                     />
                 </Grid>
                 <Grid item xs={3}>

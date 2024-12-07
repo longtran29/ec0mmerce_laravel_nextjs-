@@ -136,7 +136,7 @@ export default function Checkout({ totalPrice, fee, cartItemIds, addresses }) {
                         color: "#808089",
                     }}
                 >
-                    Tạm tính
+                    Estimate
                 </p>
                 <p
                     style={{

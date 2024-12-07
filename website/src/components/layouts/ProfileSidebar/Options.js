@@ -16,31 +16,31 @@ export const profileSidebarOpt = [
     {
         id: 2,
         icon: <NotificationsIcon />,
-        text: "Thông báo của tôi",
+        text: "Notification me",
         url: "/profile/notify",
     },
     {
         id: 3,
         icon: <ChromeReaderModeIcon />,
-        text: "Quản lý đơn hàng",
+        text: "Order",
         url: "/profile/orders",
     },
     {
         id: 4,
         icon: <PlaceIcon />,
-        text: "Sổ địa chỉ",
+        text: "Address",
         url: "/profile/address",
     },
     {
         id: 5,
         icon: <CreditCardIcon />,
-        text: "Thông tin thanh toán",
+        text: "Payment",
         url: "/profile/payment",
     },
     {
         id: 6,
         icon: <RemoveRedEyeIcon />,
-        text: "product đã xem",
+        text: "product viewed",
         url: "/profile/productSeen",
     },
 ];

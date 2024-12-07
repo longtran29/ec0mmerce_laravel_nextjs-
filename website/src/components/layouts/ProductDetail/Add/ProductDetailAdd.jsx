@@ -182,7 +182,7 @@ export default function ProductDetailAdd({ data }) {
                         </span>
                     ))}
                 </div>
-                <h5 style={{ marginTop: "12px" }}>Số lượng</h5>
+                <h5 style={{ marginTop: "12px" }}>Amount</h5>
                 <div className="quantity-handle">
                     <button onClick={decrementQuantity}>-</button>
                     <input
@@ -201,7 +201,7 @@ export default function ProductDetailAdd({ data }) {
                     />
                     <button onClick={incrementQuantity}>+</button>
                 </div>
-                <h5 style={{ marginTop: "12px" }}>Tạm tính</h5>
+                <h5 style={{ marginTop: "12px" }}>Estimate</h5>
                 <div className="price">
                     <p>{formatPriceToVND(tempPrice)}</p>
                 </div>
@@ -210,7 +210,7 @@ export default function ProductDetailAdd({ data }) {
                     onClick={handleAddToCart}
                     className="add-to-cart"
                 >
-                    Thêm vào giỏ hàng
+                    Add to cart 
                 </button>
             </StyledProductDetailAdd>
             {showLoginModal && (

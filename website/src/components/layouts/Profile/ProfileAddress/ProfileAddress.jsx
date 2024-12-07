@@ -87,7 +87,7 @@ export default function ProfileAddress({ data }) {
 
     return (
         <StyledProfileAddress>
-            <p>Sổ địa chỉ</p>
+            <p>Address</p>
             <Link href={"/profile/address/create"}>
                 <div className="create">
                     <AddIcon

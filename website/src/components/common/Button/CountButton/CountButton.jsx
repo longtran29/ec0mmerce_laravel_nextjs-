@@ -146,7 +146,7 @@ export default function CountBtn({ icon }) {
                                     marginLeft: "8px",
                                 }}
                             >
-                                Thêm vào giỏ hàng thành công
+                                Add to cart  thành công
                             </p>
                         </div>
                         <Link href={"/cart"} className="css-link">

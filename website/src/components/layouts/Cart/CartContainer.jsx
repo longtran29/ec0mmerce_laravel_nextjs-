@@ -227,7 +227,7 @@ export default function CartContainer({ data }) {
                     Đơn giá
                 </Grid>
                 <Grid item xs={1.5}>
-                    Số lượng
+                    Amount
                 </Grid>
                 <Grid item xs={1.8}>
                     Thành tiền
